@@ -14,7 +14,7 @@ function Pertour(props) {
             <h1 className='text-green-900'>{props.title}</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ersp ehenderit numquam reiciendis tempora!</p>
             
-            <div className='w-full h-4 flex items-center justify-between border-t-[1px] border-black text-red-600'>
+            <div className='w-full h-4 flex items-center justify-between  text-red-600'>
                 <p>{props.country}</p>
                 <p><span className='text-teal-500'>$</span>{props.money}</p>
                 <p>{props.days} days</p>
