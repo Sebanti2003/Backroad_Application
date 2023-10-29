@@ -13,8 +13,8 @@ function Pertour(props) {
         <div className='h-[50%] w-full p-2 flex flex-col items-center justify-between'>
             <h1 className='text-green-900'>{props.title}</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ersp ehenderit numquam reiciendis tempora!</p>
-            <hr />
-            <div className='w-full h-4 flex items-center justify-between text-red-600'>
+            
+            <div className='w-full h-4 flex items-center justify-between border-t-[1px] border-black text-red-600'>
                 <p>{props.country}</p>
                 <p><span className='text-teal-500'>$</span>{props.money}</p>
                 <p>{props.days} days</p>
