@@ -29,7 +29,7 @@ function Services() {
           OUR{" "}
           <span className="text-blue-600 text-4xl font-bold">SERVICES</span>
         </h1>
-      <div className="w-[90%] mx-auto  bg-slate-100 flex  items-center justify-between max-lg:flex-col  p-10 ">
+      <div className="w-[90%] mx-auto  bg-slate-100 flex  items-center justify-between max-lg:flex-col  p-8 ">
         {array.map((serv)=>(
             <Service {...serv}/>
         ))}
