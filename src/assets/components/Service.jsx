@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Service(props) {
-    const {id,img,title,desc}=props;
+    const {img,title,desc}=props;
   return (
     <>
     
