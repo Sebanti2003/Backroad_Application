@@ -25,7 +25,7 @@ function Navbar() {
     <div className='w-full h-[10vh] z-50 fixed top-0 border-b-[1px] border-black bg-slate-300 '>
         <div className='w-[80%] mx-auto h-full  p-2 flex justify-between items-center max-lg:w-[98%] relative'>
             <div className='text-black text-4xl tracking-widest font-mono  font-extrabold'>Back<span className='text-blue-400 text-4xl tracking-widest font-mono  font-extrabold '>Roads</span></div>
-            <div className='w-[27%]  h-full flex gap-3  justify-center items-center max-md:hidden'>
+            <div className='w-[27%]  h-full flex gap-5  mr-[105px] pt-1 justify-center items-center max-md:hidden'>
 
                
             <BrowserRouter>
