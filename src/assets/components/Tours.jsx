@@ -8,8 +8,9 @@ import img6 from "../images/tour-6.jpeg";
 import Pertour from "./Pertour";
 
 function Tours() {
-  const array = [
+  const arrayy = [
     {
+      id:1,
       img: img1,
       title: "Tibet Adventure",
       country: "China",
@@ -18,6 +19,7 @@ function Tours() {
       date: "August 26th,2020",
     },
     {
+      id:2,
       img: img2,
       title: "Tibet Adventure",
       country: "China",
@@ -26,6 +28,7 @@ function Tours() {
       date: "August 26th,2020",
     },
     {
+      id:3,
       img: img3,
       title: "Tibet Adventure",
       country: "China",
@@ -34,6 +37,7 @@ function Tours() {
       date: "August 26th,2020",
     },
     {
+      id:4,
       img: img4,
       title: "Tibet Adventure",
       country: "China",
@@ -42,6 +46,7 @@ function Tours() {
       date: "August 26th,2020",
     },
     {
+      id:5,
       img: img5,
       title: "Tibet Adventure",
       country: "China",
@@ -50,6 +55,7 @@ function Tours() {
       date: "August 26th,2020",
     },
     {
+      id:6,
       img: img6,
       title: "Tibet Adventure",
       country: "China",
@@ -66,7 +72,7 @@ function Tours() {
           <span className="text-blue-600 text-4xl font-bold">TOURS</span>
         </h1>
         <div className="w-full flex flex-wrap p-3 min-h-[70vh] justify-center ">
-            {array.map((e)=><Pertour {...e}/>)}
+            {arrayy.map((e)=><Pertour key={e.id} {...e}/>)}
         </div>
       </div>
     </>

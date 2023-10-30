@@ -7,16 +7,19 @@ import Service from "./Service";
 function Services() {
   const array = [
     {
+      id:1,
       img: img2,
       title: "Saving Money",
       desc: "We play an important role in saving your valuable money as we got the best budget for you"
     },
     {
+      id:2,
         img: img1,
         title: "Endless Hiking",
         desc: "We play an important role in saving your valuable money as we got the best budget for you"
       },
       {
+        id:3,
         img: img3,
         title: "Amazing Comfort",
         desc: "We play an important role in saving your valuable money as we got the best budget for you"
@@ -31,7 +34,7 @@ function Services() {
         </h1>
       <div className="w-[90%] mx-auto  bg-slate-100 flex  items-center justify-between max-lg:flex-col  p-8 ">
         {array.map((serv)=>(
-            <Service {...serv}/>
+            <Service key={serv.id} {...serv}/>
         ))}
       </div>
     </div>
